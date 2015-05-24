@@ -22,7 +22,7 @@ public class Listener implements KeyListener {
             return (isPressed);
         }
 
-        public boolean ftDowned() {
+        public boolean Downed() {
             return (isDowned);
         }
 
