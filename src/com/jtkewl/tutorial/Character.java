@@ -1,12 +1,9 @@
 package com.jtkewl.tutorial;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
-import java.awt.geom.AffineTransform;
-import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-
-import javax.imageio.ImageIO;
 
 public class Character {
 
@@ -128,6 +125,7 @@ public class Character {
         this.Xgo=true;
     }
 
+        //TEST COMMENT :3
 
     public void gravitate() {
         long deltaT = System.currentTimeMillis() - gStartTime;
